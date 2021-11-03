@@ -10,8 +10,8 @@
         "url": "https://${{domainName}}.wordpress.com/wp-json/wp/v2/posts?_embed",
         "authentication": {
           "basicAuthentication": {
-            "username": "${{km/connector.wp_postConnector.api_username}}",
-            "password": "${{km/connector.wp_postConnector.api_password}}"
+            "username": "${{wordpressUsername}}",
+            "password": "${{applicationPassword}}"
           }
         },
         "paginationControl": {
