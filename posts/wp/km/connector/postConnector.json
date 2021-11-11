@@ -7,7 +7,7 @@
     "sourceConfig": {
       "apiPullConfig": {
         "requestType": "GET",
-        "url": "https://news.yext.com/wp-json/wp/v2/posts?_embed",
+        "url": "https://${{domainName}}/wp-json/wp/v2/posts?_embed",
         "paginationControl": {
           "pageBasedPagination": {
             "pageKey": "page",
