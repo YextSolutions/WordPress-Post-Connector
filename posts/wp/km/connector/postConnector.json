@@ -7,7 +7,7 @@
     "sourceConfig": {
       "apiPullConfig": {
         "requestType": "GET",
-        "url": "https://${{domainName}}/wp-json/wp/v2/posts?_embed",
+        "url": "https://news.yext.com/wp-json/wp/v2/posts?_embed",
         "paginationControl": {
           "pageBasedPagination": {
             "pageKey": "page",
@@ -89,7 +89,7 @@
       {
         "type": "JSON",
         "header": "Photo Gallery",
-        "path": "_embedded.\"wp:featuredmedia\"[].link"
+        "path": "_embedded.\"wp:featuredmedia\"[].source_url"
       },
       {
         "type": "JSON",
@@ -139,7 +139,10 @@
       "header": "Photo Gallery",
       "subfieldPath": [
         {
-          "name": "clickthroughUrl"
+          "name": "image"
+        },
+        {
+          "name": "url"
         }
       ]
     },
