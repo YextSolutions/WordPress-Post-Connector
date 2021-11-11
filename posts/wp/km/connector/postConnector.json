@@ -8,12 +8,6 @@
       "apiPullConfig": {
         "requestType": "GET",
         "url": "https://${{domainName}}.com/wp-json/wp/v2/posts?_embed",
-        "authentication": {
-          "basicAuthentication": {
-            "username": "${{wordpressUsername}}",
-            "password": "${{applicationPassword}}"
-          }
-        },
         "paginationControl": {
           "pageBasedPagination": {
             "pageKey": "page",
