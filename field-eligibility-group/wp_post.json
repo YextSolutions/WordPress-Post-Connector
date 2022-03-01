@@ -1,7 +1,7 @@
 {
-  "$id": "wp_post.default",
+  "$id": "wp_post",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Post-default",
+  "name": "Post",
   "entityType": "wp_post",
   "fields": [
     "landingPageUrl",
